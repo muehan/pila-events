@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: "AIzaSyChwmTTCGm98wluEjpnjlLcXAGdrqLbVjU",
+    authDomain: "pila-events.firebaseapp.com",
+    databaseURL: "https://pila-events.firebaseio.com",
+    projectId: "pila-events",
+    storageBucket: "pila-events.appspot.com",
+    messagingSenderId: "149768498993"
+  }
 };
 
 /*
