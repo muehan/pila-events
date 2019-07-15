@@ -1,0 +1,17 @@
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>{{ model.name }}</mat-card-title>
+        <mat-card-subtitle>{{ model.description }}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+        <p>
+            {{ model.longDescription }}
+        </p>
+        <p>
+            von: {{ model.startDate | date: 'short' }} - {{ model.endDate | date: 'short' }}
+        </p>
+        <p>
+            Organisator: {{ model.organisator }}
+        </p>
+    </mat-card-content>
+</mat-card>
