@@ -8,4 +8,5 @@ export class event {
     startDate: Date;
     endDate: Date;
     organisator: string;
+    price: string;
 }
